@@ -21,7 +21,7 @@ TG频道群：https://t.me/py996
 
 ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/89996462/Quantumult-X/main/gx/MGTV1.js
 
-^https?:\/\/.*mgtv\.com\/(v\d+\/(video\/getSource|module\/list)|GetUserInfo|entrance\/home) url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/gx/MGTV2.js
+^https?:\/\/.*mgtv\.com\/(v\d+\/(video\/getSource|module\/list)|GetUserInfo|entrance\/home) url script-response-body https://raw.githubusercontent.com/PingZi-Wing/QuantumultX/master/MGTV2-Mod.js
 
 # 底部会员LOGO叠加ICON
 #^https?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
